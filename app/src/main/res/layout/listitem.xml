@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blist"
+    android:padding="16dp">
+
+
+    <!--suppress AndroidUnresolvableTag -->
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageSong"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/photo"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/imageSong"
+        android:textColor="#A5A4A4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Song Name" />
+
+
+    <TextView
+        android:id="@+id/textArtistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/imageSong"
+        android:textColor="#A5A4A4"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:text="Artist Name" />
+
+
+    <TextView
+        android:id="@+id/textTypeofGenres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textArtistName"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/imageSong"
+        android:textColor="#434544"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:text="Name of the Genre" />
+
+
+</RelativeLayout>
