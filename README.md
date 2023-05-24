@@ -1,5 +1,5 @@
 # AppMonsters-MADD-Project
-MADD Project - Music and Lyric App
+## MADD Project - Music and Lyric App
 
 Member 1 - Herath M H S M - IT21114144
 
